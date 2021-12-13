@@ -30,3 +30,12 @@ console.log(firstName.toUpperCase());
 console.log(firstName.length);
 
 
+////////// Type Any //////////
+
+// Variables of type any can be assigned to any value and TypeScript won’t give an error if they’re reassigned to a different type later on.
+
+let guess; // TypeScript considers it to be of type any
+
+guess = 'guess who'
+guess = 2;
+
