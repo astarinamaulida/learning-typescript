@@ -1,4 +1,4 @@
-// Type Inferences
+////////// Type Inferences //////////
 
 // TypeScript expects the data type of the variable to match the type of the value initially assigned to it at declaration.
 // TypeScript recognizes JavaScript’s built-in “primitive” data types:  
@@ -18,3 +18,15 @@ if (aged) {
 let dogAge = realAge * 7;
 
 console.log(`${dogAge} years`);
+
+
+////////// Type Shapes //////////
+
+// An object’s shape describes, among other things, what properties and methods it does or doesn’t contain.
+let firstName = 'muriel!';
+
+console.log(firstName.toUpperCase());
+
+console.log(firstName.length);
+
+
