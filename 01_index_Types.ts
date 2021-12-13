@@ -39,3 +39,16 @@ let guess; // TypeScript considers it to be of type any
 guess = 'guess who'
 guess = 2;
 
+
+////////// Variable Type Annotations //////////
+
+// Variables can have type annotations (also known as type declarations) added just after their names. 
+// Provide a type annotation by appending a variable with a colon (:) and the type (e.g., number, string, or any).
+
+let phoneNumber : string;
+
+if (Math.random() > 0.5) {
+  phoneNumber = '+61770102062';
+} else {
+  phoneNumber = '7167762323';
+}
