@@ -60,3 +60,17 @@ function ouncesToCups(ounces: number) {
 }
  
 const liquidAmount = ouncesToCups(3);
+
+
+////////// Explicit Return Types //////////
+
+// Add an explicit type annotation after its closing parenthesis
+
+function createGreeting(name?: string): string {
+  if (name) {
+    return `Hello, ${name}!`;
+  }
+ 
+  return undefined;
+  //Typescript Error: Type 'undefined' is not assignable to type 'string'.
+};
