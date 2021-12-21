@@ -48,4 +48,15 @@ let numbersMulti: number[][][] = [ [[1],[2,3]], [[7],bestNumbers] ];
 
 
 
-////////// Multi Dimentional Arrays //////////
+////////// Tuples //////////
+
+// In TypeScript, when an array is typed with elements of specific types, it’s called a tuple
+
+let ourTuple: [string, number, string, boolean] = ['Is', 7 , 'our favorite number?' , false];
+
+// The tuple above (ourTuple) contains the elements: 'Is', 7 , 'our favorite number?' , false 
+// and the tuple has a type of [string, number, string, boolean]. 
+// Tuple types specify both the lengths and the orders of compatible tuples, 
+// and will cause an error if either of these conditions are not met
+
+let favoriteCoordinates: [number, number, string, number, number, string] = [40, 43.2, 'N', 73, 59.8, 'W'];
