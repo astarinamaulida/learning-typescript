@@ -24,6 +24,8 @@ function stringPush(val) {
   }
 }
 
+
+
 ////////// Array Type Annotations //////////
 
 // Just put [] after the element type
@@ -43,3 +45,7 @@ let bestBooleans: boolean[] = [true, false];
 let bestMealPlan: string[][] = [bestLunches, bestBreakfasts, ['baked potato', 'mashed potato']];
 let bestBooleansTwice: boolean[][]= [bestBooleans, bestBooleans];
 let numbersMulti: number[][][] = [ [[1],[2,3]], [[7],bestNumbers] ];
+
+
+
+////////// Multi Dimentional Arrays //////////

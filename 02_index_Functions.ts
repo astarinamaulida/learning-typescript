@@ -14,6 +14,7 @@ function greetTripled(greeting:string, value:number) {
 greetTripled('Hiya', 5);
 
 
+
 ////////// Optional Parameters //////////
 
 // To indicate that a parameter is intentionally optional, we add a ? after its name. 
@@ -26,6 +27,7 @@ function proclaim(status?: string) {
 proclaim();
 proclaim('ready?');
 proclaim('ready!');
+
 
 
 ////////// Default Parameters //////////
@@ -42,6 +44,7 @@ function myproclaim(status = "not ready...", repeat = 1) {
 myproclaim();
 myproclaim("ready?");
 myproclaim("ready!", 3);
+
 
 
 ////////// Inferring Return Types //////////
@@ -62,6 +65,7 @@ function ouncesToCups(ounces: number) {
 const liquidAmount = ouncesToCups(3);
 
 
+
 ////////// Explicit Return Types //////////
 
 // Add an explicit type annotation after its closing parenthesis
@@ -74,6 +78,7 @@ function createGreeting(name?: string): string {
   return undefined;
   //Typescript Error: Type 'undefined' is not assignable to type 'string'.
 };
+
 
 
 ////////// Void Return Type //////////
