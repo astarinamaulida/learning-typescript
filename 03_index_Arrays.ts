@@ -9,7 +9,6 @@ let customersArray = [
   "Kasti Yastimeur",
 ];
 
-//Write Your Code here:
 function checkCustomersArray() {
   for (let i = 0; i < customersArray.length; i++) {
     if (typeof customersArray[i] != "string") {
