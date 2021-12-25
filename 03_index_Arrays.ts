@@ -64,3 +64,21 @@ let favoriteCoordinates: [number, number, string, number, number, string] = [40,
 
 
 ////////// Array Type Inference //////////
+
+let examAnswers= [true, false, false];
+let tup: [number, number, number] = [1,2,3];
+let concatResult = tup.concat([4,5,6]); // concatResult has the value [1,2,3,4,5,6].
+
+
+
+////////// REST Parameters //////////
+
+// Similar to assigning types to arrays
+
+function addPower(p:number, ...numsToAdd:number[]):number{
+  let answer = 0; 
+  for(let i = 0; i < numsToAdd.length; i++){
+    answer += numsToAdd[i] ** p;
+  }
+  return answer;
+}
