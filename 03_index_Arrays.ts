@@ -60,3 +60,7 @@ let ourTuple: [string, number, string, boolean] = ['Is', 7 , 'our favorite numbe
 // and will cause an error if either of these conditions are not met
 
 let favoriteCoordinates: [number, number, string, number, number, string] = [40, 43.2, 'N', 73, 59.8, 'W'];
+
+
+
+////////// Array Type Inference //////////
